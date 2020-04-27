@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="calc_white_200">#eef0f2</color>
+
+    <color name="calc_blue_700">#344955</color>
+    <color name="calc_blue_800">#232f34</color>
+
+    <color name="calc_red_300">#ef9a9a</color>
+    <color name="calc_red_400">#ef5350</color>
+    <color name="calc_red_700">#d32f2f</color>
+    <color name="calc_red_800">#c62828</color>
+
+</resources>

@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="CalcTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!--Color-->
+        <item name="colorPrimary">@color/calc_blue_700</item>
+        <item name="colorPrimaryVariant">@color/calc_blue_800</item>
+        <item name="colorSecondary">@color/calc_red_700</item>
+        <item name="colorSecondaryVariant">@color/calc_red_800</item>
+
+        <item name="android:colorBackground">@color/calc_white_200</item>
+        <item name="colorSurface">@color/calc_blue_700</item>
+        <item name="colorError">@color/calc_red_400</item>
+
+        <item name="colorOnPrimary">@color/calc_blue_700</item>
+        <item name="colorOnSecondary">@color/calc_blue_800</item>
+        <item name="colorOnBackground">@color/calc_blue_800</item>
+        <item name="colorOnSurface">@color/calc_blue_800</item>
+        <item name="colorOnError">@color/calc_blue_800</item>
+
+        <item name="android:navigationBarColor" tools:targetApi="o_mr1">@color/calc_white_200</item>
+        <item name="android:statusBarColor">@color/calc_white_200</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <style name="TextInputLayoutAppearance" parent="Widget.Design.TextInputLayout">
+        <item name="hintTextAppearance">@color/calc_blue_700</item>
+        <item name="errorTextAppearance">@color/calc_red_400</item>
+        <item name="android:textColor">@color/calc_blue_700</item>
+        <item name="android:textColorHint">@color/calc_blue_700</item>
+        <item name="colorControlNormal">@color/calc_blue_700</item>
+        <item name="colorControlActivated">@color/calc_red_400</item>
+        <item name="colorControlHighlight">@color/calc_blue_700</item>
+    </style>
+
+</resources>
